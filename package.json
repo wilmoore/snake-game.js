@@ -1,0 +1,24 @@
+{
+  "name": "snake-game",
+  "version": "0.0.0",
+  "description": "Snake Game",
+  "main": "src/main",
+  "dependencies": {
+    "browserify": "^11.2.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "nodemon": "^1.7.1"
+  },
+  "scripts": {
+    "build": "browserify src/main > snake.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snake",
+    "game",
+    "canvas"
+  ],
+  "author": "Wil Moore III <wil.moore@wilmoore.com> (http://github.com/wilmoore)",
+  "license": "MIT"
+}
