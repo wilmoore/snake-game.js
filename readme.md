@@ -12,6 +12,15 @@ npm run build
 open index.html
 ```
 
+## How does this differ from the original?
+
+This is based on [Intro to JS for Games: Building Snake]; however, the following changes have been made:
+
+- Uses JS constructor functions and prototypes.
+- Organizes the code into cohesive CommonJS modules.
+- Uses browserify and CommonJS instead of relying on globals.
+- Uses a key map to define keyboard actions.
+
 ## Inspiration
 
 - [Intro to JS for Games: Building Snake](http://slides.com/zachklabunde/js-for-games)
@@ -19,3 +28,6 @@ open index.html
 ## Licenses
 
 [![GitHub license](https://img.shields.io/github/license/wilmoore/snake-game.js.svg)](https://github.com/wilmoore/snake-game.js/blob/master/license)
+
+
+[Intro to JS for Games: Building Snake]: http://slides.com/zachklabunde/js-for-games
