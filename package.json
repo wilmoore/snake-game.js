@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "browserify src/main > snake.js",
+    "dev": "nodemon -x 'npm run build --silent' -e 'js json'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
