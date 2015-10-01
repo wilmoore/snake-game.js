@@ -4,11 +4,23 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
+## Usage
+
 ```shell
 git clone https://github.com/wilmoore/snake-game.js.git
 cd snake-game
 npm install
 npm run build
+open index.html
+```
+
+## Contributing
+
+```shell
+git clone https://github.com/wilmoore/snake-game.js.git
+cd snake-game
+npm install
+npm run dev
 open index.html
 ```
 
